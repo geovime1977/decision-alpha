@@ -1,29 +1,29 @@
-# DecisionAlpha — AI Portfolio Optimization & Backtesting Engine
+# DecisionAlpha — AI Portfolio Optimization & Decision System
 
 ## Overview
 
-DecisionAlpha is a quantitative investment framework designed to simulate real-world portfolio decision-making using optimization and backtesting.
+DecisionAlpha is a decision system that applies optimization and data-driven logic to outperform traditional market strategies under uncertainty.
 
-It combines financial modeling, operations research, and data-driven decision systems to evaluate strategies under uncertainty.
+It combines financial modeling, operations research, and systematic decision-making to simulate real-world portfolio allocation.
 
 ---
 
 ## Problem
 
-Investors struggle to balance risk and return in dynamic and uncertain environments.
+Investors and organizations struggle to balance risk and return in dynamic and uncertain environments.
 
-Traditional allocation methods fail to adapt to changing conditions, leading to inefficient decisions.
+Traditional allocation approaches are static and fail to adapt to changing market conditions.
 
 ---
 
 ## Solution
 
-This project implements a **decision system** that:
+This project implements a **dynamic decision system** that:
 
 - Uses rolling-window optimization (no lookahead bias)
-- Dynamically reallocates capital
+- Dynamically reallocates capital based on market conditions
 - Applies realistic constraints (position limits, transaction costs)
-- Benchmarks against market performance
+- Benchmarks performance against the S&P 500
 
 ---
 
@@ -45,7 +45,7 @@ The strategy achieved:
 - **Sharpe ratio: 0.76 vs 0.75**
 - **Max drawdown: -37% vs -33%**
 
-👉 The model outperforms in return while maintaining similar risk-adjusted performance, with higher downside volatility.
+👉 The model outperforms in total return while maintaining similar risk-adjusted performance, with higher downside volatility.
 
 ---
 
@@ -63,6 +63,24 @@ The strategy achieved:
 
 ---
 
+## Business Impact
+
+This framework can support:
+
+- Better capital allocation decisions  
+- Improved risk management  
+- More adaptive investment strategies in uncertain environments  
+
+---
+
+## So What?
+
+The results suggest that systematic decision models can outperform traditional approaches.
+
+However, without proper downside protection, higher returns come with increased risk exposure — highlighting the importance of risk control mechanisms.
+
+---
+
 ## Why This Matters
 
 This is not just a financial model — it is a **decision system**.
@@ -75,17 +93,17 @@ It demonstrates how optimization, constraints, and data can be combined to suppo
 
 With a background in **Mathematics and Geopolitics**, this project reflects a broader approach to decision-making:
 
-- dealing with uncertainty  
-- modeling complex systems  
-- understanding dynamic environments  
+- Modeling uncertainty  
+- Understanding complex systems  
+- Adapting to dynamic environments  
 
 ---
 
 ## Next Steps
 
 - Volatility targeting  
-- Drawdown control  
-- Integration of macro/geopolitical signals  
+- Drawdown control mechanisms  
+- Integration of macroeconomic and geopolitical signals  
 
 ---
 
