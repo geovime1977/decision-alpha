@@ -4,34 +4,34 @@
 
 DecisionAlpha is a quantitative investment framework designed to simulate real-world portfolio decision-making using optimization and backtesting.
 
-It combines financial modeling, data analysis, and algorithmic decision-making to evaluate investment strategies under uncertainty.
+It combines financial modeling, operations research, and data-driven decision systems to evaluate strategies under uncertainty.
 
 ---
 
 ## Problem
 
-Investors struggle to balance risk and return in dynamic markets.
+Investors struggle to balance risk and return in dynamic and uncertain environments.
 
-Static strategies fail to adapt, leading to inefficient capital allocation.
+Traditional allocation methods fail to adapt to changing conditions, leading to inefficient decisions.
 
 ---
 
 ## Solution
 
-This project builds a dynamic portfolio allocation engine that:
+This project implements a **decision system** that:
 
 - Uses rolling-window optimization (no lookahead bias)
-- Rebalances periodically based on market data
+- Dynamically reallocates capital
 - Applies realistic constraints (position limits, transaction costs)
-- Benchmarks performance against the S&P 500
+- Benchmarks against market performance
 
 ---
 
 ## Methodology
 
 1. Data ingestion via Yahoo Finance  
-2. Data cleaning and preprocessing  
-3. Rolling window optimization (Modern Portfolio Theory)  
+2. Data cleaning and validation  
+3. Rolling window portfolio optimization (Modern Portfolio Theory)  
 4. Backtesting with transaction costs  
 5. Performance evaluation vs benchmark  
 
@@ -39,27 +39,53 @@ This project builds a dynamic portfolio allocation engine that:
 
 ## Results
 
-- Outperformed the S&P 500 in total return  
-- Similar Sharpe ratio (risk-adjusted performance)  
-- Higher drawdowns indicate opportunity for improvement  
+The strategy achieved:
+
+- **~515% total return vs ~233% (S&P 500)**
+- **Sharpe ratio: 0.76 vs 0.75**
+- **Max drawdown: -37% vs -33%**
+
+👉 The model outperforms in return while maintaining similar risk-adjusted performance, with higher downside volatility.
 
 ---
 
-## Performance Comparison
+## Equity Curve
 
-| Metric        | Strategy | S&P 500 |
-|--------------|--------|--------|
-| Return       | ~515%   | ~233%   |
-| Sharpe       | ~0.76   | ~0.75   |
-| Max Drawdown | ~-37%   | ~-33%   |
+![Equity Curve](equity_curve.png)
 
 ---
 
 ## Key Insights
 
-- The strategy captures return opportunities through dynamic allocation  
+- The model captures return opportunities through dynamic allocation  
 - Performance is strong but sensitive to volatility  
-- Risk management is the next major improvement area  
+- Drawdown control is the main improvement opportunity  
+
+---
+
+## Why This Matters
+
+This is not just a financial model — it is a **decision system**.
+
+It demonstrates how optimization, constraints, and data can be combined to support real-world decision making under uncertainty.
+
+---
+
+## Perspective
+
+With a background in **Mathematics and Geopolitics**, this project reflects a broader approach to decision-making:
+
+- dealing with uncertainty  
+- modeling complex systems  
+- understanding dynamic environments  
+
+---
+
+## Next Steps
+
+- Volatility targeting  
+- Drawdown control  
+- Integration of macro/geopolitical signals  
 
 ---
 
@@ -75,4 +101,4 @@ This project builds a dynamic portfolio allocation engine that:
 
 ## Author
 
-Geovane — Decision Analyst focused on Optimization, AI, and Financial Systems
+Geovane — Decision Analyst focused on Optimization, AI, and Decision Systems
